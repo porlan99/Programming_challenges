@@ -1,5 +1,0 @@
-ASSIGNMENT 2: INTENSIVE INTEGRATION USING WEB APIS by Antonio Porlan Miñarro
-Interactions between genes of this list have been analysed, but doe to an error in the code it was not possible to get the result.
-However, a simulation of the code has been uploaded to the assignment
-In case the code had been correctly created, this report would show the results of the analysis, which include genes interactions, number of total networks, kegg and go annotation
-Sorry for not getting the correct output
