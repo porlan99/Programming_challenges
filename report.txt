@@ -1,0 +1,75 @@
+ASSIGNMENT 2: INTENSIVE INTEGRATION USING WEB APIS by Antonio Porlan Miñarro
+
+NETWORKS REPORT
+This report has information about gene interaction networks and the annotation of its members
+We have obtained 432 networks, composed by a total of 158 different genes
+Bellow is an example of some of these networks and the kegg and go annotation of the genes that participate in them:
+
+	Network 1
+
+Composed by at5g54270, at4g37140, and at2g34420
+Their annotations are:
+ 
+	For at5g54270:
+		GO terms: {"GO:0015979"=>"P:photosynthesis", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0010119"=>"P:regulation of stomatal movement", "GO:0009737"=>"P:response to abscisic acid", "GO:0009635"=>"P:response to herbicide", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0006412"=>"P:translation", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+	For at4g37140:
+		GO terms: {"GO:0009793"=>"P:embryo development ending in seed dormancy"}
+		KEGG terms: {}
+	For at2g34420:
+		GO terms: {"GO:0032875"=>"P:regulation of DNA endoreduplication", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0009416"=>"P:response to light stimulus", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+
+	Network 2
+
+Composed by at5g54270, at5g12980, and at3g27690
+Their annotations are:
+ 
+	For at5g54270:
+		GO terms: {"GO:0015979"=>"P:photosynthesis", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0010119"=>"P:regulation of stomatal movement", "GO:0009737"=>"P:response to abscisic acid", "GO:0009635"=>"P:response to herbicide", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0006412"=>"P:translation", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+	For at5g12980:
+		GO terms: {"GO:0017148"=>"P:negative regulation of translation"}
+		KEGG terms: {"ath03018"=>"RNA degradation"}
+	For at3g27690:
+		GO terms: {"GO:0045893"=>"P:positive regulation of transcription, DNA-templated", "GO:0006355"=>"P:regulation of transcription, DNA-templated", "GO:0071215"=>"P:cellular response to abscisic acid stimulus", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:1903428"=>"P:positive regulation of reactive oxygen species biosynthetic process", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0090333"=>"P:regulation of stomatal closure", "GO:0009409"=>"P:response to cold", "GO:0009269"=>"P:response to desiccation", "GO:0010218"=>"P:response to far red light", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0009645"=>"P:response to low light intensity stimulus", "GO:0010114"=>"P:response to red light", "GO:0030104"=>"P:water homeostasis", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+
+	Network 3
+
+Composed by at5g54270, at5g45870, and at3g27690
+Their annotations are:
+ 
+	For at5g54270:
+		GO terms: {"GO:0015979"=>"P:photosynthesis", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0010119"=>"P:regulation of stomatal movement", "GO:0009737"=>"P:response to abscisic acid", "GO:0009635"=>"P:response to herbicide", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0006412"=>"P:translation", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+	For at5g45870:
+		GO terms: {"GO:0009738"=>"P:abscisic acid-activated signaling pathway", "GO:0080163"=>"P:regulation of protein serine/threonine phosphatase activity"}
+		KEGG terms: {"ath04016"=>"MAPK signaling pathway - plant", "ath04075"=>"Plant hormone signal transduction"}
+	For at3g27690:
+		GO terms: {"GO:0045893"=>"P:positive regulation of transcription, DNA-templated", "GO:0006355"=>"P:regulation of transcription, DNA-templated", "GO:0071215"=>"P:cellular response to abscisic acid stimulus", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:1903428"=>"P:positive regulation of reactive oxygen species biosynthetic process", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0090333"=>"P:regulation of stomatal closure", "GO:0009409"=>"P:response to cold", "GO:0009269"=>"P:response to desiccation", "GO:0010218"=>"P:response to far red light", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0009645"=>"P:response to low light intensity stimulus", "GO:0010114"=>"P:response to red light", "GO:0030104"=>"P:water homeostasis", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+
+	Network 4
+
+Composed by at5g54270, at4g37930, and at2g45170
+Their annotations are:
+ 
+	For at5g54270:
+		GO terms: {"GO:0015979"=>"P:photosynthesis", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0010119"=>"P:regulation of stomatal movement", "GO:0009737"=>"P:response to abscisic acid", "GO:0009635"=>"P:response to herbicide", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0006412"=>"P:translation", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
+	For at4g37930:
+		GO terms: {"GO:0007623"=>"P:circadian rhythm", "GO:0046655"=>"P:folic acid metabolic process", "GO:0019264"=>"P:glycine biosynthetic process from serine", "GO:0006544"=>"P:glycine metabolic process", "GO:0006565"=>"P:L-serine catabolic process", "GO:0006563"=>"P:L-serine metabolic process", "GO:0006730"=>"P:one-carbon metabolic process", "GO:0009853"=>"P:photorespiration", "GO:0009626"=>"P:plant-type hypersensitive response", "GO:0046686"=>"P:response to cadmium ion", "GO:0009409"=>"P:response to cold", "GO:0009416"=>"P:response to light stimulus", "GO:0035999"=>"P:tetrahydrofolate interconversion", "GO:0046653"=>"P:tetrahydrofolate metabolic process", "GO:0032259"=>"P:methylation"}
+		KEGG terms: {"ath00260"=>"Glycine, serine and threonine metabolism", "ath00460"=>"Cyanoamino acid metabolism", "ath00630"=>"Glyoxylate and dicarboxylate metabolism", "ath00670"=>"One carbon pool by folate", "ath01100"=>"Metabolic pathways", "ath01110"=>"Biosynthesis of secondary metabolites", "ath01200"=>"Carbon metabolism", "ath01230"=>"Biosynthesis of amino acids", "ath01240"=>"Biosynthesis of cofactors"}
+	For at2g45170:
+		GO terms: {"GO:0006914"=>"P:autophagy", "GO:0006995"=>"P:cellular response to nitrogen starvation", "GO:0009267"=>"P:cellular response to starvation", "GO:0015031"=>"P:protein transport", "GO:0045471"=>"P:response to ethanol"}
+		KEGG terms: {"ath04136"=>"Autophagy - other"}
+
+	Network 5
+
+Composed by at5g54270, at4g37930, and at5g04140
+Their annotations are:
+ 
+	For at5g54270:
+		GO terms: {"GO:0015979"=>"P:photosynthesis", "GO:0009768"=>"P:photosynthesis, light harvesting in photosystem I", "GO:0009769"=>"P:photosynthesis, light harvesting in photosystem II", "GO:0018298"=>"P:protein-chromophore linkage", "GO:0010119"=>"P:regulation of stomatal movement", "GO:0009737"=>"P:response to abscisic acid", "GO:0009635"=>"P:response to herbicide", "GO:0009644"=>"P:response to high light intensity", "GO:0009416"=>"P:response to light stimulus", "GO:0006412"=>"P:translation", "GO:0009765"=>"P:photosynthesis, light harvesting"}
+		KEGG terms: {"ath00196"=>"Photosynthesis - antenna proteins", "ath01100"=>"Metabolic pathways"}
